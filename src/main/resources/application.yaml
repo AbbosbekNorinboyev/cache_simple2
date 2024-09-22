@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: 'jdbc:postgresql://localhost:5432/cache?currentSchema=spring_boot_advanced_lesson6'
+    username: postgres
+    password: 2210
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    show-sql:
+      true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
