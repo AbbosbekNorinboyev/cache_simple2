@@ -8,6 +8,8 @@ public interface PostService {
     Post create(PostCreateDTO postCreateDTO);
 
     Post get(Integer id) throws InterruptedException;
+
     void update(PostUpdateDTO postUpdateDTO);
+
     void delete(Integer id);
 }
